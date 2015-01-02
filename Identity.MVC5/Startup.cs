@@ -1,8 +1,6 @@
-﻿using Microsoft.Owin;
-using Owin;
+﻿using Owin;
 
-[assembly: OwinStartupAttribute(typeof(Identity.MVC5.Startup))]
-namespace Identity.MVC5
+namespace IdentitySample
 {
     public partial class Startup
     {
