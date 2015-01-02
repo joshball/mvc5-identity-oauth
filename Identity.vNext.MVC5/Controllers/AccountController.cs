@@ -1,13 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Security.Principal;
+﻿using System.Security.Principal;
 using System.Threading.Tasks;
+using Identity.vNext.MVC5.Models;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Mvc;
-using Identity.MVC5.Models;
 
-namespace Identity.MVC5.Controllers
+namespace Identity.vNext.MVC5.Controllers
 {
     [Authorize]
     public class AccountController : Controller

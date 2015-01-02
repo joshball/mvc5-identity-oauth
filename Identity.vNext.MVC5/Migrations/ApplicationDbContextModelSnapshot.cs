@@ -1,10 +1,10 @@
 ﻿using System;
+using Identity.vNext.MVC5.Models;
 using Microsoft.Data.Entity;
 using Microsoft.Data.Entity.Metadata;
 using Microsoft.Data.Entity.Migrations.Infrastructure;
-using Identity.MVC5.Models;
 
-namespace Identity.MVC5.Migrations
+namespace Identity.vNext.MVC5.Migrations
 {
     [ContextType(typeof(ApplicationDbContext))]
     public class ApplicationDbContextModelSnapshot : ModelSnapshot
@@ -63,7 +63,7 @@ namespace Identity.MVC5.Migrations
                     b.ForRelational().Table("AspNetUserRoles");
                 });
 
-                builder.Entity("Identity.MVC5.Models.ApplicationUser", b =>
+                builder.Entity("Identity.vNext.MVC5.Models.ApplicationUser", b =>
                 {
                     b.Property<int>("AccessFailedCount");
                     b.Property<string>("Email");
@@ -89,12 +89,12 @@ namespace Identity.MVC5.Migrations
 
                 builder.Entity("Microsoft.AspNet.Identity.IdentityUserClaim`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]", b =>
                 {
-                    b.ForeignKey("Identity.MVC5.Models.ApplicationUser", "UserId");
+                    b.ForeignKey("Identity.vNext.MVC5.Models.ApplicationUser", "UserId");
                 });
 
                 builder.Entity("Microsoft.AspNet.Identity.IdentityUserLogin`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]", b =>
                 {
-                    b.ForeignKey("Identity.MVC5.Models.ApplicationUser", "UserId");
+                    b.ForeignKey("Identity.vNext.MVC5.Models.ApplicationUser", "UserId");
                 });
 
                 return builder.Model;

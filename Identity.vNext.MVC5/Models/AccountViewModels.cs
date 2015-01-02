@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace Identity.MVC5.Models
+namespace Identity.vNext.MVC5.Models
 {
     public class ExternalLoginConfirmationViewModel
     {

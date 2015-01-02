@@ -1,9 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using Microsoft.AspNet.Mvc;
+﻿using Microsoft.AspNet.Mvc;
 
-namespace Identity.MVC5.Controllers
+namespace Identity.vNext.MVC5.Controllers
 {
     public class HomeController : Controller
     {

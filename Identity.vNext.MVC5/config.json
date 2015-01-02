@@ -1,7 +1,7 @@
 ﻿{
     "Data": {
         "DefaultConnection": { 
-            "ConnectionString": "Server=(localdb)\\mssqllocaldb;Database=aspnet5-Identity.MVC5-949eb3f1-14c9-4d01-9d91-d10e6d6f6570;Trusted_Connection=True;MultipleActiveResultSets=true"
+            "ConnectionString": "Server=(localdb)\\mssqllocaldb;Database=aspnet5-Identity.vNext.MVC5-949eb3f1-14c9-4d01-9d91-d10e6d6f6570;Trusted_Connection=True;MultipleActiveResultSets=true"
         }
     },
     "EntityFramework": {

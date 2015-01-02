@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.22310.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Identity.MVC5", "Identity.MVC5\Identity.MVC5.kproj", "{AB8BC223-E6FD-4062-9395-59C5296B9862}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Identity.vNext.MVC5", "Identity.vNext.MVC5\Identity.vNext.MVC5.kproj", "{AB8BC223-E6FD-4062-9395-59C5296B9862}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
